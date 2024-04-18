@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* тут навигация */
+.navbar {
+    background-color: #166bc0;
+}
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: #4386df;
+}
+
+.navbar-toggler-icon {
+    background-color: #fff;
+}
+
+
+/* баннер */
+.jumbotron {
+    background-image: url(https://f8n-production.imgix.net/creators/profile/20rd6nexv-23964-jpg-y98x5q.jpg?q=70&max-w=1680&fm=jpg);
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 150px 0;
+}
+
+.jumbotron h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.jumbotron p {
+    font-size: 24px;
+}
+
+/* о компании */
+.section-about {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+}
+
+.section-about h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.card {
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.card-body {
+    padding: 30px;
+}
+
+.card-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.card-text {
+    font-size: 16px;
+    color: #6c757d;
+}
+
+/* тут услуги */
+.section-services_bg-light_py-5 {
+    background-image: url();
+}
+.section-services {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+}
+
+.section-services h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.section-about_py-5 {
+    height: 650px;
+    background-image: url(http://www.hazoorilaljewellers.com/wp-content/uploads/2019/12/banner-new.jpg);
+}
+
+/* кейсы */
+.section-cases {
+    padding: 50px 0;
+}
+
+.section-cases h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* подвал */
+.bg-dark_text-white_py-4 {
+    background-color: #0b7ff3;
+}
+.footer {
+    background-color: #0b7ff3;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.footer p {
+    font-size: 16px;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #f8f9fa;
+}
